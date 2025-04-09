@@ -17,9 +17,10 @@ const jobData = [
 ]
 
 </script>
+
 <template>
     <div class="px-[12%] w-full h-full bg-[#f8f0e3]">
-        <div class="flex flex-col md:flex-row justify-between bg-[#FFFFFF] w-full h-fit rounded-md pt-10 px-5 pb-10">
+        <div class="flex flex-col md:flex-row justify-between bg-[#FFFFFF] w-full h-fit rounded-md pt-10 px-5">
 <div class="w-[50%] h-full flex flex-col gap-4">
     <div class="w-full h-full flex flex-col ">
         <h1 class="text-3xl font-bold text-[#b49286]">
@@ -46,14 +47,15 @@ const jobData = [
     </div>
 </div>
 <div class="w-[50%] flex flex-row justify-end">
-img div
+    <img src="../assets/resumepic-removebg-preview.png" alt="resume pic" class=""/>
+
 </div>
         </div>
-        <div class="w-full h-full">
+        <div class="w-full">
 <div class="flex items-center justify-center p-12 text-4xl font-bold text-[#b49286]">
     <h1>Work Experience</h1>
 </div>
-<div class="flex flex-row p-2 gap-5">
+<div class="flex flex-col md:flex-row p-2 gap-5">
     <div v-for=" job in jobData" class="" >
     <work-card
         :companyName="job.companyName"
@@ -64,12 +66,24 @@ img div
 />
 </div>
 </div>
+<div>
+    <div class="flex items-center justify-center p-12 text-4xl font-bold text-[#b49286]">
+    <h1>Skills</h1>
+</div>
+</div>
+<div>
+    <div class="flex items-center justify-center p-12 text-4xl font-bold text-[#b49286]">
+    <h1>Education</h1>
+</div>
+</div>
+<div>
 
-
+</div>
 
 
         </div>
     </div>
+    
 </template>
 
 <style scoped>
