@@ -21,7 +21,7 @@ const jobData = [
 <template>
     <div class="px-[12%] w-full h-full bg-[#f8f0e3]">
         <div class="flex flex-col md:flex-row justify-between bg-[#FFFFFF] w-full h-fit rounded-md pt-10 px-5">
-<div class="w-[50%] h-full flex flex-col gap-4">
+<div class="w-[50%] h-full flex flex-col gap-4 my-auto ">
     <div class="w-full h-full flex flex-col ">
         <h1 class="text-3xl font-bold text-[#b49286]">
         Hello,
@@ -47,7 +47,7 @@ const jobData = [
     </div>
 </div>
 <div class="w-[50%] flex flex-row justify-end">
-    <img src="../assets/resumepic-removebg-preview.png" alt="resume pic" class=""/>
+    <img src="../assets/resume-crop.jpg" alt="resume pic" class=""/>
 
 </div>
         </div>
