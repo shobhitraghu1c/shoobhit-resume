@@ -5,7 +5,7 @@
     }
 </script>
 <template>
-    <div class="bg-[#f8f0e3] h-screen w-screen">
+    <div class=" ">
         <!--header code-->
 <div class="flex flex-row p-2 justify-between h-[64px] bg-[#744253] place-items-center font-bold sticky w-full top-0 z-50">
 <div class="text-2xl text-[#ffffff]">
